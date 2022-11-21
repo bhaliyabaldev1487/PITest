@@ -11,7 +11,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import constant.WaitConstant;
 
-
+/**
+ * All WebDriver wait related actions provided here
+ * @author baldevbhaliya
+ *
+ */
 public class WebDriverWaitManager {
 	WebDriver driver;
 	public static WebDriverWaitManager waitManager = null;

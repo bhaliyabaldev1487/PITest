@@ -3,6 +3,11 @@ package utils;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * General utilities
+ * @author baldevbhaliya
+ *
+ */
 public class CommonUtilities {
 	
 	public static void displayTitleAndCount(HashMap<String, Integer> map) {

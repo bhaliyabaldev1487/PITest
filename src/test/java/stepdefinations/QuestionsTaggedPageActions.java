@@ -14,6 +14,11 @@ import io.cucumber.java.en.When;
 import pom.QuestionsTaggedPage;
 import utils.CommonUtilities;
 
+/**
+ * All Questions Tagged Page step definations provided here
+ * @author baldevbhaliya
+ *
+ */
 public class QuestionsTaggedPageActions extends Base{
 
 	WebElement moreRelatedTagsLink, feedLink;

@@ -10,6 +10,11 @@ import base.Base;
 import io.cucumber.java.en.When;
 import pom.TagsPage;
 
+/**
+ * All Filter page step definations provided here
+ * @author baldevbhaliya
+ *
+ */
 public class FilterPageActions extends Base {
 
 	WebElement searchFilter, exactMatchTag;

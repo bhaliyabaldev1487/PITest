@@ -8,6 +8,11 @@ import constant.Endpoints;
 import io.cucumber.java.en.Given;
 import pom.HomePage;
 
+/**
+ * All Home Page step definations provided here
+ * @author baldevbhaliya
+ *
+ */
 public class HomePageActions extends Base{
 	WebElement menuOption, tagsSection, acceptCookies;
 	public final String TAG_NAME = "python";
