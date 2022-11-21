@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Filter Tags" duration-ms="12588" started-at="2022-11-21T09:53:42 IST" finished-at="2022-11-21T09:53:54 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.CucumberRunner@69b0fd6f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Run Tests" duration-ms="12588" started-at="2022-11-21T09:53:42 IST" finished-at="2022-11-21T09:53:54 IST">
+      <class name="cucumberrunner.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberrunner.CucumberRunner@69b0fd6f]" name="setUpClass" is-config="true" duration-ms="300" started-at="2022-11-21T09:53:42 IST" finished-at="2022-11-21T09:53:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3766c667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.CucumberRunner@69b0fd6f]" name="runScenario" duration-ms="12239" started-at="2022-11-21T09:53:42 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-21T09:53:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get relative count & bountied count by tag name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Filter by tag name & get the relative count & bountied]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at stepdefinations.HomePageActions.visit_Stackoverflow(HomePageActions.java:23)
+at ✽.Visit Stackoverflow(classpath:features/filterbytag.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberrunner.CucumberRunner@69b0fd6f]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2022-11-21T09:53:54 IST" finished-at="2022-11-21T09:53:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberrunner.CucumberRunner -->
+    </test> <!-- Run Tests -->
+  </suite> <!-- Filter Tags -->
+</testng-results>
